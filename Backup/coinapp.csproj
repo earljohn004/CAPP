@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\EarlJohn\Desktop\Coinapp\coinapp_1.4.0.0\coinapp.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{406F1BAB-71EB-42BA-AF60-0BB8C9CCE659}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>coinapp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.4.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>coinapp</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="coinapplib">
+      <HintPath>lib\coinapplib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="Interop.ADOX">
+      <HintPath>lib\Interop.ADOX.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="coinappMods.cs" />
+    <Compile Include="config.cs" />
+    <Compile Include="entrypoint.cs" />
+    <Compile Include="appFramework.cs" />
+    <Compile Include="form_account.cs" />
+    <Compile Include="form_account_create.cs" />
+    <Compile Include="form_config.cs" />
+    <Compile Include="form_dialog.cs" />
+    <Compile Include="form_installer.cs" />
+    <Compile Include="form_lock.cs" />
+    <Compile Include="form_login.cs" />
+    <Compile Include="form_main.cs" />
+    <Compile Include="form_use_account.cs" />
+    <Compile Include="form_use_voucher.cs" />
+    <Compile Include="form_voucher.cs" />
+    <Compile Include="My\MyApplication.cs" />
+    <Compile Include="My\MyComputer.cs" />
+    <Compile Include="My\MyProject.cs" />
+    <Compile Include="My\InternalXmlHelper.cs" />
+    <Compile Include="My\MySettings.cs" />
+    <Compile Include="My\MySettingsProperty.cs" />
+    <Compile Include="My\Resources\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="form_account.resx" />
+    <EmbeddedResource Include="form_account_create.resx" />
+    <EmbeddedResource Include="form_config.resx" />
+    <EmbeddedResource Include="form_dialog.resx" />
+    <EmbeddedResource Include="form_installer.resx" />
+    <EmbeddedResource Include="form_lock.resx" />
+    <EmbeddedResource Include="form_login.resx" />
+    <EmbeddedResource Include="form_main.resx" />
+    <EmbeddedResource Include="form_use_account.resx" />
+    <EmbeddedResource Include="form_use_voucher.resx" />
+    <EmbeddedResource Include="form_voucher.resx" />
+    <EmbeddedResource Include="Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

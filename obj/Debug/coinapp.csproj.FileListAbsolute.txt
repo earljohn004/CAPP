@@ -1,0 +1,15 @@
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.csprojAssemblyReference.cache
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.form_account.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.form_account_create.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.form_config.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.form_dialog.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.form_installer.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.form_lock.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.form_login.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.form_main.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.form_use_account.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.form_use_voucher.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.form_voucher.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.Resources.resources
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.csproj.GenerateResource.cache
+D:\1CoinApp\Coinapp\obj\Debug\coinapp.csproj.CoreCompileInputs.cache
